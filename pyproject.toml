@@ -1,0 +1,3 @@
+[tool.pytest.ini_options]
+testpaths = ["outils/wd-check", "exemples/gestion-stock/tests"]
+pythonpath = ["outils/wd-check", "exemples/gestion-stock/src"]
