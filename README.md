@@ -1,6 +1,6 @@
 # Méthode WD
 
-[![Vérification](https://github.com/wilsondjagaly301-prog/methode-wd/actions/workflows/verification.yml/badge.svg)](https://github.com/wilsondjagaly301-prog/methode-wd/actions/workflows/verification.yml)
+[![Vérification](https://github.com/wd-a11y/wd/actions/workflows/verification.yml/badge.svg)](https://github.com/wd-a11y/wd/actions/workflows/verification.yml)
 [![Licence du code : MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Licence des textes : CC BY-SA 4.0](https://img.shields.io/badge/textes-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE-docs.md)
 
@@ -54,7 +54,7 @@ Cinq phases, une **porte** de contrôle après chacune. Une porte qui échoue re
 ## Ce que contient le dépôt
 
 ```text
-methode-wd/
+wd/
 ├── methode/              la méthode : une page par étape, une porte par phase
 │   ├── 00-principes.md
 │   ├── A-probleme/       étapes 1 à 4b

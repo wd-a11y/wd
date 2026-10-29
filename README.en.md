@@ -1,6 +1,6 @@
 # WD Method
 
-[![Verification](https://github.com/wilsondjagaly301-prog/methode-wd/actions/workflows/verification.yml/badge.svg)](https://github.com/wilsondjagaly301-prog/methode-wd/actions/workflows/verification.yml)
+[![Verification](https://github.com/wd-a11y/wd/actions/workflows/verification.yml/badge.svg)](https://github.com/wd-a11y/wd/actions/workflows/verification.yml)
 [![Code license: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Text license: CC BY-SA 4.0](https://img.shields.io/badge/texts-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE-docs.md)
 

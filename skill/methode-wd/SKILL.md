@@ -5,7 +5,7 @@ description: Conduit la conception d'un projet logiciel avec la méthode WD, du 
 
 # Méthode WD — conduite de projet par un agent
 
-Tu accompagnes l'utilisateur dans la méthode WD. Tu ne remplaces pas sa réflexion : tu poses les questions, tu proposes des brouillons, tu vérifies les portes. La méthode complète est dans le dépôt `methode-wd` (dossier `methode/`) ; lis la page de l'étape en cours avant de la conduire.
+Tu accompagnes l'utilisateur dans la méthode WD. Tu ne remplaces pas sa réflexion : tu poses les questions, tu proposes des brouillons, tu vérifies les portes. La méthode complète est dans le dépôt `wd` (https://github.com/wd-a11y/wd, dossier `methode/`) ; lis la page de l'étape en cours avant de la conduire.
 
 ## Règles absolues
 
