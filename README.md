@@ -1,10 +1,20 @@
 # Méthode WD
 
+[![Vérification](https://github.com/wilsondjagaly301-prog/methode-wd/actions/workflows/verification.yml/badge.svg)](https://github.com/wilsondjagaly301-prog/methode-wd/actions/workflows/verification.yml)
+[![Licence du code : MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![Licence des textes : CC BY-SA 4.0](https://img.shields.io/badge/textes-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE-docs.md)
+
+**Français** · [English](README.en.md)
+
 **Une méthode complète et vérifiable de conception logicielle, du problème réel au code testé et livré.**
 
 La méthode WD s'applique à tout projet d'ingénierie logicielle : application web ou mobile, API, outil interne, plateforme de données, logiciel embarqué. Elle ne dépend ni d'un langage, ni d'un framework, ni d'un domaine métier.
 
 Son idée centrale : **le code n'est pas inventé au moment de l'écrire, il traduit une analyse déjà faite** — et chaque étape de cette analyse laisse une trace écrite qu'on peut vérifier.
+
+![wd-check trouve une règle sans test et une référence cassée, puis tout passe après correction](assets/demo-wd-check.svg)
+
+*`wd-check` relit les documents et les tests du projet : il signale ici une règle qu'aucun test ne prouve et un scénario qui cite une règle inexistante.*
 
 ---
 
@@ -93,7 +103,7 @@ Un identifiant est **défini** une seule fois (dans `docs/`) et **cité** partou
 
 ## Feuille de route
 
-- [x] **v2.0** — la méthode, le gabarit, trois exemples, la skill IA, `wd-check` minimal
+- [x] **v2.0** — la méthode, le gabarit, trois exemples, la skill IA, `wd-check` minimal ([journal des versions](CHANGELOG.md))
 - [ ] Description du domaine en YAML validé par schéma, lue par `wd-check`
 - [ ] Génération de squelettes de tests à partir des règles et des scénarios
 - [ ] Langage de spécification `.wd` et extension d'éditeur (seulement si la version YAML sert à d'autres)

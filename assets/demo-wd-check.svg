@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 368" width="900" height="368" role="img" aria-label="Démonstration de wd-check : deux erreurs détectées, puis corrigées">
+<defs>
+<clipPath id="c0"><rect x="22" y="55.5" height="22" width="433"><animate attributeName="width" dur="14.0s" repeatCount="indefinite" calcMode="linear" values="0;0;433;433;0" keyTimes="0;0.0357;0.1357;0.9643;1"/></rect></clipPath>
+<clipPath id="c9"><rect x="22" y="253.5" height="22" width="433"><animate attributeName="width" dur="14.0s" repeatCount="indefinite" calcMode="linear" values="0;0;433;433;0" keyTimes="0;0.4571;0.5571;0.9643;1"/></rect></clipPath>
+</defs>
+<rect width="900" height="368" rx="10" fill="#0d1117" stroke="#30363d"/>
+<rect width="900" height="34" rx="10" fill="#161b22"/><rect y="24" width="900" height="10" fill="#161b22"/>
+<circle cx="22" cy="17" r="6" fill="#ff5f57"/>
+<circle cx="42" cy="17" r="6" fill="#febc2e"/>
+<circle cx="62" cy="17" r="6" fill="#28c840"/>
+<text x="450.0" y="22" text-anchor="middle" fill="#8b949e" font-size="13" font-family="Segoe UI, Helvetica, Arial, sans-serif">wd-check — méthode WD</text>
+<text x="24" y="74" fill="#7ee787" font-size="14.5" font-family="Consolas, 'DejaVu Sans Mono', Menlo, 'Courier New', monospace" xml:space="preserve" clip-path="url(#c0)">$ python outils/wd-check/wd_check.py mon-projet</text>
+<text x="24" y="96" fill="#e6edf3" font-size="14.5" font-family="Consolas, 'DejaVu Sans Mono', Menlo, 'Courier New', monospace" xml:space="preserve">wd-check — mon-projet<animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.1643;0.1679;0.9643;1"/></text>
+<text x="24" y="118" fill="#e6edf3" font-size="14.5" font-family="Consolas, 'DejaVu Sans Mono', Menlo, 'Courier New', monospace" xml:space="preserve">Définis : 3 règles, 2 scénarios<animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.1786;0.1821;0.9643;1"/></text>
+<text x="24" y="140" fill="#ff7b72" font-size="14.5" font-family="Consolas, 'DejaVu Sans Mono', Menlo, 'Courier New', monospace" xml:space="preserve">ERREUR      R-03 n'est cité par aucun test (défini en docs/B-regles.md:5)<animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.2071;0.2107;0.9643;1"/></text>
+<text x="24" y="162" fill="#ff7b72" font-size="14.5" font-family="Consolas, 'DejaVu Sans Mono', Menlo, 'Courier New', monospace" xml:space="preserve">ERREUR      R-07 est cité mais défini nulle part (docs/B-scenarios.feature:2)<animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.2357;0.2393;0.9643;1"/></text>
+<text x="24" y="184" fill="#d29922" font-size="14.5" font-family="Consolas, 'DejaVu Sans Mono', Menlo, 'Courier New', monospace" xml:space="preserve">ATTENTION   S-02 n'est cité par aucun test (défini en docs/B-scenarios.feature:2)<animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.2643;0.2679;0.9643;1"/></text>
+<text x="24" y="206" fill="#e6edf3" font-size="14.5" font-family="Consolas, 'DejaVu Sans Mono', Menlo, 'Courier New', monospace" xml:space="preserve">Résultat : 2 erreur(s), 1 avertissement(s).<animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.2929;0.2964;0.9643;1"/></text>
+<text x="24" y="250" fill="#8b949e" font-size="14.5" font-family="Consolas, 'DejaVu Sans Mono', Menlo, 'Courier New', monospace" xml:space="preserve"># on ajoute le test de R-03 et S-02, on corrige la référence R-07<animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.3857;0.3893;0.9643;1"/></text>
+<text x="24" y="272" fill="#7ee787" font-size="14.5" font-family="Consolas, 'DejaVu Sans Mono', Menlo, 'Courier New', monospace" xml:space="preserve" clip-path="url(#c9)">$ python outils/wd-check/wd_check.py mon-projet</text>
+<text x="24" y="294" fill="#e6edf3" font-size="14.5" font-family="Consolas, 'DejaVu Sans Mono', Menlo, 'Courier New', monospace" xml:space="preserve">wd-check — mon-projet<animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.5929;0.5964;0.9643;1"/></text>
+<text x="24" y="316" fill="#e6edf3" font-size="14.5" font-family="Consolas, 'DejaVu Sans Mono', Menlo, 'Courier New', monospace" xml:space="preserve">Définis : 3 règles, 2 scénarios<animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.6071;0.6107;0.9643;1"/></text>
+<text x="24" y="338" fill="#3fb950" font-size="14.5" font-family="Consolas, 'DejaVu Sans Mono', Menlo, 'Courier New', monospace" xml:space="preserve">Résultat : 0 erreur(s), 0 avertissement(s).  ✔<animate attributeName="opacity" dur="14.0s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.6357;0.6393;0.9643;1"/></text>
+</svg>
